@@ -1,0 +1,51 @@
+
+/*Inicio de los estilos de iconos*/
+.padddign_top_and_buttom{
+    width: 96%;
+    margin: auto;
+    display: block;
+    padding: 30px 0px;
+}
+.cont_icon_and_text {
+    display: inline-block;
+    width: 220px;
+    height: auto;
+    border-radius: 6px;
+    padding: 4px 0;
+    margin: 6px 6px;
+}
+.material-symbols-outlined{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+    height: 30px;
+    text-align: center;
+    padding-left: 4px;
+    font-size: 30px;
+    color: $secondColorText;
+}
+.icon_text{
+    display: inline-block;
+    width: calc(100% - 70px);
+    color: $secondColorText;
+    padding-left: 26px;
+    text-align: start;
+}
+
+
+@media screen and(max-width: 386px){
+    .cont_icon_and_text {
+        width: 128px !important;
+    }
+    .icon_text {
+        width: calc(100% - 42px);
+        font-size: 10px;
+    }
+}
+@media screen and(max-width: 315px){
+    .cont_icon_and_text {
+        width: 94% !important;
+        background: #e3e3e3;
+        margin: 10px auto;
+    }
+}

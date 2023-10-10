@@ -1,0 +1,215 @@
+
+
+.contenedor_100 {
+    padding: 10px 0 20px 0;
+    background: #00000087;
+}
+
+.style_linea_orange{
+    display: block;
+    height: 2px;
+    margin: auto;
+    width: 60%;
+    background-color: $colorOrangeGeneral;
+}
+.open247{
+    display: block;
+    width: 100%;
+    letter-spacing: 2px;
+    padding: 4px 0px 10px 0px;
+    font-size: 56px;
+    color: $colorText;
+    text-align: center;
+    margin: auto;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+.text_7{
+    font-size: 80px;
+    color: $colorOrangeGeneral;
+    font-family: 'Fjalla One', sans-serif;
+}
+.btn_general {
+    display: block;
+    width: 92px;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: $colorOrangeGeneral;
+    color: $colorText;
+    border-radius: 4px;
+}
+.first_body_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/woman_background.jpg);
+}
+/*ubicacion*/
+.mapafooter{
+    display: block;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 813px){
+    .cont_33 {
+        width: 27%;
+    }
+    
+    
+}
+@media screen and (max-width: 800px){
+
+    .container_general {
+        position: relative;
+    }
+
+    .open247 {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .centrar_habitaciones {
+        margin: -80px auto 20px auto;
+    }
+    .cont_center {
+        width: 100%;
+    }
+
+    .btn_whatsapp{
+        bottom: 70px;
+        right: 50px;
+    }
+    .btn_whatsapp img{
+        width: 50px;
+        height: 50px;
+    }
+    #up {
+        right: 50px;
+    }
+    .back_footer {
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width: 732px){
+
+    .cont_33 {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.titulo_footer {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+
+}
+@media screen and (max-width: 668px){
+
+    .cont_icon_and_text {
+        width: 200px;
+    }
+    .material-symbols-outlined {
+        width: 30px;
+        font-size: 30px;
+    }
+    .icon_text {
+        width: calc(100% - 30px);
+    }
+}
+@media screen and (max-width: 620px){
+    .open247 {
+        font-size: 38px;
+    }
+    .text_7 {
+        font-size: 56px;
+    }
+   
+}
+@media screen and (max-width: 553px){
+    .p_general {
+        font-size: 14px;
+    }
+    .open247 {
+        font-size: 40px;
+        padding: 10px 0px 10px 0px;
+    }
+
+}
+@media screen and (max-width: 520px){
+    .cont_icon_and_text {
+        display: inline-block;
+        width: 160px !important;
+        height: auto;
+        border-radius: 6px;
+        padding: 4px 0;
+        margin: 6px 3px;
+    }
+    .material-symbols-outlined {
+        width: 40px !important;
+        vertical-align: middle;
+    }
+    .icon_text {
+        width: calc(100% - 54px);
+        font-size: 14px;
+    }
+
+
+
+}
+@media screen and (max-width: 456px){
+    .p_general {
+        text-align: center;
+    }
+    .cont_icon_and_text {
+        width: 90%;
+    }
+    .open247 {
+        width: 100%;
+        font-size: 40px;
+        padding: 10px 0px 10px 0px;
+    }
+}
+@media screen and (max-width: 440px){
+    .open247 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 425px){
+
+    .item {
+        width: 300px;
+    }
+
+    .open247 {
+        font-size: 30px;
+    }
+    .centrar_habitaciones {
+        margin: -130px auto 20px auto;
+    }
+}
+@media screen and (max-width: 350px){
+    .contenedor_100 {
+        padding: 90px 2% 100px 2%;
+        margin-top: 50px;
+    }
+    .open247 {
+        font-size: 24px;
+    }
+    .text_7 {
+        font-size: 30px;
+    }
+    .p_general {
+        font-size: 12px !important;
+        text-align: center;
+    }
+}

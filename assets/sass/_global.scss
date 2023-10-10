@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+  }
+  .body {
+    max-width: 1600px;
+    min-width: 300px;
+    margin: auto;
+    background: #e9e9e9;
+}
+
+  .container_general{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.main_wrap_general{
+    display: block;
+    width: 94%;
+    height: auto;
+    padding: 4px 0px;
+    margin: auto;
+}
+.h1_general{
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  letter-spacing: 1px;
+  font-size: 34px;
+  color: $colorText;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.general_h2{
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #ffffff;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.h3_general{
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 16px 0;
+  letter-spacing: 1px;
+  font-size: 34px;
+  font-weight: 600;
+  color: $secondColorText;
+  font-family:'Fjalla One', sans-serif;
+  text-align: center;
+}
+.p_general{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: $textWhite;
+  text-align: center;
+  padding: 10px;
+}
+.p_background{
+  background: $colorForOffert;
+  color: $colorText;
+  font-weight: 600;
+  border-radius: 4px;
+}

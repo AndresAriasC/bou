@@ -1,0 +1,127 @@
+
+/*btn whatsapp*/
+.btn_whatsapp{
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    cursor: pointer;
+    right: 24px;
+}
+#up{
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: 24px;
+    transition: all .2s ease-in-out;
+    transform: scale(0);
+}
+
+.btn_whatsapp img{
+    width: 50px;
+    height: 50px;
+}
+#up img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    background: $colorOrangeGeneral;
+}
+
+.back_footer{
+    margin-top: -4px;
+    background: #080a12;
+}
+.cont_center{
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+    padding: 10px 0;
+}
+.titulo_footer{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.icon_text_position{
+    text-align: left;
+    margin: 6px auto;
+}
+
+.info_footer{
+    display: block;
+    margin: 4px auto;
+}
+.styleIcon{
+    font-size: 28px;
+}
+.cont_33 {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin: 10px auto;
+    vertical-align: text-top;
+    height: auto;
+}
+.block_33{
+    text-align: right;
+}
+
+.info_footer img{
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    height: 40px;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    width: 40px;
+    background: $colorText;
+}
+.info_footer p{
+    display: inline-block;
+    color: #fff;
+    padding-left: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.desarrollador{
+    background-color: #0a1824;
+    padding: 10px 0;
+}
+.create{
+    font-size: 12px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*Termina el footer*/
+
+@media screen and (max-width: 858px){
+    .material-symbols-outlined {
+        width: 12px !important;
+        font-size: 26px !important;
+    }
+    .cont_33 {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 10px auto;
+        height: auto;
+    }
+    .info_footer {
+        display: block;
+        margin: 10px 12px;
+    }
+    .block_33 {
+        width: 100%;
+        text-align: center !important;
+    }
+    .info_footer img {
+        background: $colorOrangeGeneral;
+    }
+}

@@ -1,0 +1,114 @@
+
+.centrar_habitaciones{
+    width: 100%;
+    margin: 20px auto 70px auto;
+    text-align: center;
+}
+.info_habitaciones{
+    display: block;
+    width: 100%;
+    padding: 30px 0px;
+}
+/*estilo general del contenedor de las
+habitaciones*/
+.container_33{
+    display: inline-block;
+    width: 29%;
+    height: auto;
+    border-radius: 6px;
+    margin: 14px 4px;
+    background: $colorRoomsContainer;
+    box-shadow: 1px 2px 45px 3px rgba(0,0,0,0.5);
+}
+.container_33 img{
+    display: block;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+.titulo_habitacion{
+    display: block;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: $secondColorText;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.lista_habitacion{
+    display: inline-block;
+    width: 100%;
+    padding: 0px 40px;
+}
+.item_habitacion{
+    display: block;
+    width: 76%;
+    color: $secondColorText;
+    min-height: 22px;
+    text-align: left;
+    font-size: 14px;
+}
+.btn_ver_habitacion{
+    display: block;
+    width: 186px;
+    color: $colorText;
+    padding: 10px 20px;
+    margin: 10px auto 20px auto;
+    background: $colorOrangeGeneral;
+    border-radius: 4px;
+}
+@media screen and(max-width: 1050px){
+    .container_33 {
+        width: 38%;
+        margin: 14px 12px;
+    }
+}
+
+
+@media screen and(max-width: 980px){
+    .titulo_habitacion {
+        font-size: 16px;
+    }
+    .lista_habitacion {
+        padding: 0px 16px;
+    }
+    .btn_ver_habitacion {
+        width: 150px;
+        margin: 10px auto 16px auto;
+    }
+}
+@media screen and(max-width: 800px){
+    .container_33 {
+        width: 46%;
+        margin: 14px 10px;
+    }
+}
+@media screen and(max-width:680px){
+    .container_33 {
+        width: 40%;
+        margin: 14px 8px;
+    }
+}
+@media screen and(max-width:620px){
+    .container_33 {
+        width: 70%;
+        margin: 14px 8px;
+    }
+}
+@media screen and(max-width:550px){
+    .container_33 {
+        width: 80%;
+        margin: 14px 8px;
+    }
+}
+@media screen and(max-width:446px){
+    .container_33 {
+        width: 86%;
+        margin: 14px 8px;
+    }
+}
